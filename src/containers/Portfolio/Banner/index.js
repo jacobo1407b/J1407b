@@ -30,16 +30,8 @@ const BannerSection = ({
         <Box {...row}>
           <Box {...contentArea}>
             <Heading content="Hello, I’m" {...greetingStyle} />
-            <Heading content="Jon Doe" {...nameStyle} />
-            <Heading content="Visual System Designer" {...designationStyle} />
-            <Box {...roleWrapper}>
-              <Icon
-                icon={cornerDownRight}
-                style={{ color: '#3444f1' }}
-                size={22}
-              />
-              <Heading content="Illustrative Lead at RedQ" {...roleStyle} />
-            </Box>
+            <Heading content="Jacobo Hernandez" {...nameStyle} />
+            <Heading content="Software & Blockchain developer" {...designationStyle} />
             <Text
               content="The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Lorem Ipsum is simply dummy text of the printing."
               {...aboutStyle}
@@ -89,7 +81,7 @@ BannerSection.defaultProps = {
   greetingStyle: {
     as: 'h3',
     color: '#fff',
-    fontSize: ['18px', '18px', '18px', '20px', '30px'],
+    fontSize: ['18px', '18px', '18px', '18px', '20px'],
     fontWeight: '500',
     mb: '8px',
   },
@@ -101,9 +93,9 @@ BannerSection.defaultProps = {
     mb: '6px',
   },
   designationStyle: {
-    as: 'h3',
+    as: 'h4',
     color: '#fff',
-    fontSize: ['18px', '18px', '18px', '20px', '30px'],
+    fontSize: ['15px', '15px', '15px', '18px', '28px'],
     fontWeight: '700',
     mb: ['30px', '30px', '25px', '30px', '30px'],
   },

@@ -1,6 +1,7 @@
 import Document, { Html, Head, Main, NextScript } from 'next/document';
 import { ServerStyleSheet } from 'styled-components';
 import FavIcon from 'common/assets/image/favicon.png';
+import LogoHam from 'common/assets/image/logo.png'
 
 export default class CustomDocument extends Document {
   static async getInitialProps(ctx) {
@@ -30,7 +31,7 @@ export default class CustomDocument extends Document {
     return (
       <Html lang="en">
         <Head>
-          <link rel="shortcut icon" type="image/x-icon" href={FavIcon} />
+          <link rel="shortcut icon" type="image/x-icon" href={LogoHam} />
         </Head>
         <body>
           <Main />

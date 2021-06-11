@@ -1,8 +1,7 @@
 import { socialTwitter } from 'react-icons-kit/ionicons/socialTwitter';
-import { socialFacebook } from 'react-icons-kit/ionicons/socialFacebook';
-import { socialDribbbleOutline } from 'react-icons-kit/ionicons/socialDribbbleOutline';
+import {socialInstagram} from 'react-icons-kit/typicons/socialInstagram'
 import { socialGithub } from 'react-icons-kit/ionicons/socialGithub';
-import { socialGoogleplusOutline } from 'react-icons-kit/ionicons/socialGoogleplusOutline';
+import {socialLinkedin} from 'react-icons-kit/typicons/socialLinkedin'
 
 import Awardee1 from '../../assets/image/portfolio/awardee-1.png';
 import Awardee2 from '../../assets/image/portfolio/awardee-2.png';
@@ -39,23 +38,19 @@ import Reviewer3 from '../../assets/image/portfolio/client-avatar-3.jpg';
 export const SOCIAL_PROFILES = [
   {
     icon: socialTwitter,
-    url: '#',
+    url: 'https://twitter.com/JacoboMendieta',
   },
   {
-    icon: socialFacebook,
-    url: '#',
+    icon: socialLinkedin,
+    url: 'https://www.linkedin.com/in/jacobo-hernandez-mendieta-007a521a0/',
   },
   {
-    icon: socialDribbbleOutline,
-    url: '#',
+    icon: socialInstagram,
+    url: 'https://www.instagram.com/jacobo1407b/',
   },
   {
     icon: socialGithub,
-    url: '#',
-  },
-  {
-    icon: socialGoogleplusOutline,
-    url: '#',
+    url: 'https://github.com/jacobo1407b',
   },
 ];
 

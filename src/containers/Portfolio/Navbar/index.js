@@ -14,6 +14,7 @@ import { MENU_ITEMS } from 'common/data/Portfolio/data';
 import ScrollSpyMenu from 'common/components/ScrollSpyMenu';
 
 import LogoImage from 'common/assets/image/portfolio/logo.png';
+import LogoHam from 'common/assets/image/portfolio/logo.png'
 import LogoImageAlt from 'common/assets/image/portfolio/logo-alt.png';
 
 const Navbar = ({ navbarStyle, logoStyle, button, row, menuWrapper }) => {
@@ -32,14 +33,14 @@ const Navbar = ({ navbarStyle, logoStyle, button, row, menuWrapper }) => {
         <Box {...row}>
           <Logo
             href="#"
-            logoSrc={LogoImage}
+            logoSrc={LogoHam}
             title="Portfolio"
             logoStyle={logoStyle}
             className="main-logo"
           />
           <Logo
             href="#"
-            logoSrc={LogoImageAlt}
+            logoSrc={LogoHam}
             title="Portfolio"
             logoStyle={logoStyle}
             className="logo-alt"
@@ -101,7 +102,9 @@ Navbar.defaultProps = {
     width: '100%',
   },
   logoStyle: {
-    maxWidth: ['120px', '130px'],
+    with:"50px", 
+    height:"50px",
+    //maxWidth: ['120px', '130px'],
   },
   button: {
     type: 'button',

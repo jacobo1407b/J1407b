@@ -27,8 +27,8 @@ const Portfolio = () => {
     <ThemeProvider theme={portfolioTheme}>
       <Fragment>
         <Head>
-          <title>Portfolio | A react next landing page</title>
-          <meta name="Description" content="React next landing page" />
+          <title>Jacobo1407b</title>
+          <meta name="Description" content="Jacobo Hernandez Mendieta, web page" />
           <meta name="theme-color" content="#ec5555" />
           {/* Load google fonts */}
           <link
