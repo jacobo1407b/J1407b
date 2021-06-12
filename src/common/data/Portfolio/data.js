@@ -113,7 +113,7 @@ export const AWARDS = [
 ];
 
 export const PORTFOLIO_SHOWCASE = [
-  {
+  /*{
     title: 'DESIGN',
     portfolioItem: [
       {
@@ -163,72 +163,78 @@ export const PORTFOLIO_SHOWCASE = [
         ],
       },
     ],
-  },
+  },*/
   {
-    title: 'DEVELOPMENT',
+    title: 'BLOCKCHAIN',
     portfolioItem: [
       {
-        title: 'Canada Media Site',
+        title: 'BUNBi network',
         description:
           "An effective and immersive user experience is what catches the attention and spreads a clear message. That's why we attach great importance to the fact that ergonomics serves the design, and that this design is innovative and neat.",
         image: PortfolioImage1,
-        link: '#',
-        featuredIn: 'AWWWARDS',
-        featuredLink: '#',
-        view: '4.5K',
-        love: '1.5K',
-        feedback: '1.2K',
+        link: 'https://bunbi.com.mx',
+        featuredIn: 'BUNBi',
+        featuredLink: 'https://bunbi.com.mx',
+        view: '27',
+        love: '20',
+        feedback: '3',
         buildWith: [
           {
-            content: 'React JS',
+            content: 'Substrate',
           },
           {
-            content: 'Next JS',
+            content: 'Rust',
           },
           {
-            content: 'Styled Component',
-          },
-        ],
-      },
-      {
-        title: 'RedQ, Inc. mobile app',
-        description:
-          "An effective and immersive user experience is what catches the attention and spreads a clear message. That's why we attach great importance to the fact that ergonomics serves the design, and that this design is innovative and neat.",
-        image: PortfolioImage2,
-        link: '#',
-        featuredIn: 'AppStore',
-        featuredLink: '#',
-        view: '8.5K',
-        love: '5.5K',
-        feedback: '3.2K',
-        buildWith: [
-          {
-            content: 'React Native',
-          },
-          {
-            content: 'Firebase',
-          },
-          {
-            content: 'Styled Component',
+            content: 'Docker',
           },
         ],
       },
     ],
   },
   {
-    title: 'ANIMATION',
+    title: 'SMARTCONTRACT',
     portfolioItem: [
       {
-        title: 'Canada Media Site',
+        title: 'TEC BLOCKCHAIN FOR AVIATION',
         description:
           "An effective and immersive user experience is what catches the attention and spreads a clear message. That's why we attach great importance to the fact that ergonomics serves the design, and that this design is innovative and neat.",
         image: PortfolioImage1,
-        link: '#',
-        featuredIn: 'AWWWARDS',
-        featuredLink: '#',
-        view: '4.5K',
-        love: '1.5K',
-        feedback: '1.2K',
+        link: 'http://cerapp-env.eba-xbhgdbja.us-east-1.elasticbeanstalk.com/',
+        featuredIn: 'TEC BLOCKCHAIN FOR AVIATION',
+        featuredLink: 'http://cerapp-env.eba-xbhgdbja.us-east-1.elasticbeanstalk.com/',
+        view: '28',
+        love: '15K',
+        feedback: '10',
+        buildWith: [
+          {
+            content: 'React JS',
+          },
+          {
+            content: 'Truffle Suite',
+          },
+          {
+            content: 'Solidity',
+          },
+        ],
+      },
+
+    ],
+  },
+  {
+    title: 'WEB',
+    portfolioItem: [
+      {
+        title: 'Seani',
+        description:
+          "An effective and immersive user experience is what catches the attention and spreads a clear message. That's why we attach great importance to the fact that ergonomics serves the design, and that this design is innovative and neat.",
+        image: PortfolioImage1,
+        link: 'https://seani.vercel.app',
+        featuredIn: 'SEANI',
+        featuredLink: 'https://seani.vercel.app',
+        view: '26',
+        love: '15',
+        feedback: '16',
         buildWith: [
           {
             content: 'React JS',
@@ -237,132 +243,39 @@ export const PORTFOLIO_SHOWCASE = [
             content: 'Next JS',
           },
           {
-            content: 'Styled Component',
-          },
-        ],
-      },
-      {
-        title: 'RedQ, Inc. mobile app',
-        description:
-          "An effective and immersive user experience is what catches the attention and spreads a clear message. That's why we attach great importance to the fact that ergonomics serves the design, and that this design is innovative and neat.",
-        image: PortfolioImage2,
-        link: '#',
-        featuredIn: 'AppStore',
-        featuredLink: '#',
-        view: '8.5K',
-        love: '5.5K',
-        feedback: '3.2K',
-        buildWith: [
-          {
-            content: 'React Native',
-          },
-          {
             content: 'Firebase',
-          },
-          {
-            content: 'Styled Component',
           },
         ],
       },
     ],
   },
   {
-    title: 'TV ADVERTISEMENT',
+    title: 'MERN',
     portfolioItem: [
       {
-        title: 'Canada Media Site',
+        title: 'Simple fullstack',
         description:
           "An effective and immersive user experience is what catches the attention and spreads a clear message. That's why we attach great importance to the fact that ergonomics serves the design, and that this design is innovative and neat.",
         image: PortfolioImage1,
-        link: '#',
-        featuredIn: 'AWWWARDS',
-        featuredLink: '#',
-        view: '4.5K',
-        love: '1.5K',
-        feedback: '1.2K',
+        link: 'https://github.com/jacobo1407b/bunbiplataform',
+        featuredIn: 'MERN',
+        featuredLink: 'https://github.com/jacobo1407b/bunbiplataform',
+        view: '4',
+        love: '4',
+        feedback: '1',
         buildWith: [
+          {
+            content: 'Mongo DB',
+          },
+          {
+            content: 'Express',
+          },
           {
             content: 'React JS',
           },
+
           {
-            content: 'Next JS',
-          },
-          {
-            content: 'Styled Component',
-          },
-        ],
-      },
-      {
-        title: 'RedQ, Inc. mobile app',
-        description:
-          "An effective and immersive user experience is what catches the attention and spreads a clear message. That's why we attach great importance to the fact that ergonomics serves the design, and that this design is innovative and neat.",
-        image: PortfolioImage2,
-        link: '#',
-        featuredIn: 'AppStore',
-        featuredLink: '#',
-        view: '8.5K',
-        love: '5.5K',
-        feedback: '3.2K',
-        buildWith: [
-          {
-            content: 'React Native',
-          },
-          {
-            content: 'Firebase',
-          },
-          {
-            content: 'Styled Component',
-          },
-        ],
-      },
-    ],
-  },
-  {
-    title: 'MARKETING',
-    portfolioItem: [
-      {
-        title: 'Canada Media Site',
-        description:
-          "An effective and immersive user experience is what catches the attention and spreads a clear message. That's why we attach great importance to the fact that ergonomics serves the design, and that this design is innovative and neat.",
-        image: PortfolioImage1,
-        link: '#',
-        featuredIn: 'AWWWARDS',
-        featuredLink: '#',
-        view: '4.5K',
-        love: '1.5K',
-        feedback: '1.2K',
-        buildWith: [
-          {
-            content: 'React JS',
-          },
-          {
-            content: 'Next JS',
-          },
-          {
-            content: 'Styled Component',
-          },
-        ],
-      },
-      {
-        title: 'RedQ, Inc. mobile app',
-        description:
-          "An effective and immersive user experience is what catches the attention and spreads a clear message. That's why we attach great importance to the fact that ergonomics serves the design, and that this design is innovative and neat.",
-        image: PortfolioImage2,
-        link: '#',
-        featuredIn: 'AppStore',
-        featuredLink: '#',
-        view: '8.5K',
-        love: '5.5K',
-        feedback: '3.2K',
-        buildWith: [
-          {
-            content: 'React Native',
-          },
-          {
-            content: 'Firebase',
-          },
-          {
-            content: 'Styled Component',
+            content: 'Node JS',
           },
         ],
       },
@@ -393,25 +306,22 @@ export const PROCESS_STEPS = [
 
 export const SERVICE_LIST = [
   {
-    title: 'UI/UX Design',
+    title: 'Blockchain',
     listItems: [
       {
-        content: 'Design Sprints',
+        content: 'Truffle',
       },
       {
-        content: 'User Research',
+        content: 'Ganache',
       },
       {
-        content: 'Visual Design',
+        content: 'Drizzle',
       },
       {
-        content: 'Mobile App Design',
+        content: 'Solidity',
       },
       {
-        content: 'Tracking & Learning',
-      },
-      {
-        content: 'Building Traction',
+        content: 'Substrate (basic)',
       },
     ],
   },
@@ -419,45 +329,39 @@ export const SERVICE_LIST = [
     title: 'Web Development',
     listItems: [
       {
-        content: 'ReactJS',
+        content: 'React JS',
       },
       {
-        content: 'AngularJS',
+        content: 'Next JS',
       },
       {
-        content: 'ASP.NET MVC',
+        content: 'Redux',
       },
       {
-        content: 'WordPress',
+        content: 'Webpack',
       },
       {
         content: 'NodeJS',
       },
-      {
-        content: 'GO',
-      },
     ],
   },
   {
-    title: 'Mobile App Development',
+    title: 'Hybrid Application Development',
     listItems: [
       {
-        content: 'iOS',
+        content: 'Flutter',
       },
       {
-        content: 'Android',
+        content: 'Electron',
       },
       {
         content: 'React Native',
       },
       {
-        content: 'Ionic & Apache Cordova',
+        content: 'Ionic & React',
       },
       {
         content: 'NodeJS',
-      },
-      {
-        content: '3D & VR',
       },
     ],
   },
@@ -465,32 +369,25 @@ export const SERVICE_LIST = [
 
 export const SKILLS = [
   {
-    title: 'Graphic Design',
+    title: 'BLOCKCHAIN',
     description:
-      'Aristotle maintained the sharp distinction between science and the practical',
+      'Decentralized applications, smartcontracts and testing',
     icon: SkillIcon1,
-    successRate: '90',
-  },
-  {
-    title: 'UI/UX Design',
-    description:
-      'Aristotle maintained the sharp distinction between science and the practical',
-    icon: SkillIcon2,
-    successRate: '85',
+    successRate: '70',
   },
   {
     title: 'Web Application',
     description:
-      'Aristotle maintained the sharp distinction between science and the practical',
+      'MERN stack development with workflow',
     icon: SkillIcon3,
-    successRate: '80',
+    successRate: '95',
   },
   {
-    title: 'Mobile Application',
+    title: 'Hybrid Application',
     description:
-      'Aristotle maintained the sharp distinction between science and the practical',
+      'Mobile or desktop applications',
     icon: SkillIcon4,
-    successRate: '70',
+    successRate: '80',
   },
 ];
 
@@ -557,14 +454,6 @@ export const TESTIMONIAL = [
 export const FOOTER_MENU = [
   {
     label: 'Contact',
-    path: '#',
-  },
-  {
-    label: 'Privacy',
-    path: '#',
-  },
-  {
-    label: 'Cookie Policy',
     path: '#',
   },
 ];

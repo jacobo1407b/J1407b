@@ -33,13 +33,13 @@ const BannerSection = ({
             <Heading content="Jacobo Hernandez" {...nameStyle} />
             <Heading content="Software & Blockchain developer" {...designationStyle} />
             <Text
-              content="The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Lorem Ipsum is simply dummy text of the printing."
+              content="I love technology and the way it makes life easier for us, I am passionate about Frontend and JavaScript development, although I recently learned about smartContracts and blockchain ."
               {...aboutStyle}
             />
             <SocialProfile items={SOCIAL_PROFILES} />
           </Box>
           <Box {...imageArea} className="image_area">
-            <Image src={PersonImage} alt="Mat Helme" />
+            <Image src={PersonImage} alt="Jacobo Hernandez Mendieta" style={{height:"80%",marginLeft:"90px",marginBottom:"90px"}} />
           </Box>
         </Box>
       </Container>
@@ -74,7 +74,7 @@ BannerSection.defaultProps = {
     flexDirection: 'column',
   },
   imageArea: {
-    width: ['100%', '100%', '50%', '60%'],
+    width: ['70%', '70%', '50%', '60%'],
     flexBox: true,
     alignItems: 'flex-end',
   },

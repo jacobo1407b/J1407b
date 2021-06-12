@@ -1,5 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import Link from 'next/link'
 import Box from 'common/components/Box';
 import Text from 'common/components/Text';
 import Heading from 'common/components/Heading';
@@ -43,11 +44,10 @@ const ContactSection = ({
         </Box>
         <Box {...buttonWrapper}>
           <ButtonWrapper>
-            <Button
-              title="hello@redq.io"
-              className="portfolio_button"
-              {...buttonStyle}
-            />
+          <Link href="mailto:jacobohernandezmendieta99@gmail.com" className="portfolio_button"
+          {...buttonStyle}>
+          <a>Submit</a>
+          </Link>
           </ButtonWrapper>
         </Box>
       </Container>

@@ -33,7 +33,7 @@ const SkillSection = ({
   successRateText,
 }) => {
   return (
-    <Box {...sectionWrapper} as="section">
+    <Box {...sectionWrapper} as="section" id="talk">
       <Container noGutter mobileGutter width="1200px">
         <Box {...secTitleWrapper}>
           <Heading {...secTitle} content="Ways I can help you" />

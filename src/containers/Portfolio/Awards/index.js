@@ -57,11 +57,11 @@ const AwardsSection = ({
         <Box {...secTitleWrapper}>
           <Heading
             {...secTitle}
-            content="Honorable Recognitions &amp; Awards"
+            content="Certifications"
           />
           <Text
             {...secDescription}
-            content="Year after year, Blue Label Labs has been recognized as one of the top design and development firms in New York City. It’s nice to feel appreciated!"
+            content="Some of my certificates in blockchain and tools for development on the web. It's nice to never stop learning!"
           />
         </Box>
 

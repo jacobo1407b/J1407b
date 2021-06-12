@@ -19,7 +19,7 @@ const SocialProfile = ({ items, className, iconSize }) => {
           className="social_profile_item"
         >
           <Link href={item.url || '#'}>
-            <a aria-label="social icon">
+            <a aria-label="social icon" target="_blank">
               <Icon
                 icon={item.icon || socialDribbbleOutline}
                 size={iconSize || 22}

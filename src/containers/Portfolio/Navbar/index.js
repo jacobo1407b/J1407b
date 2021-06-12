@@ -51,7 +51,7 @@ const Navbar = ({ navbarStyle, logoStyle, button, row, menuWrapper }) => {
               menuItems={MENU_ITEMS}
               offset={-70}
             />
-            <Link href="#">
+            <Link href="#talk">
               <a className="navbar_button">
                 <Button {...button} title="LET'S TALK" />
               </a>
@@ -69,7 +69,7 @@ const Navbar = ({ navbarStyle, logoStyle, button, row, menuWrapper }) => {
                 drawerClose={true}
                 offset={-100}
               />
-              <Link href="#">
+              <Link href="#talk">
                 <a className="navbar_drawer_button">
                   <Button {...button} title="LET'S TALK" />
                 </a>
@@ -102,7 +102,7 @@ Navbar.defaultProps = {
     width: '100%',
   },
   logoStyle: {
-    with:"50px", 
+    with:"50px",
     height:"50px",
     //maxWidth: ['120px', '130px'],
   },

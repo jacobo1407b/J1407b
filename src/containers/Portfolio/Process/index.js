@@ -47,7 +47,7 @@ const ProcessSection = ({
           />
           <Text
             {...secDescription}
-            content="Our process is designed to give you the best shot at success."
+            content="My development process is based on SCRUM ."
           />
         </Box>
 
@@ -74,26 +74,22 @@ const ProcessSection = ({
         <Box {...learningRow}>
           <Box {...learningContentArea}>
             <Heading
-              content="Which is why we Never Stop Learning."
+              content="Never stop learning!!!"
               {...learningTitle}
             />
             <Text
-              content="We believe that we succeed when our clients succeed."
-              {...learningSubTitle}
+              {...learningDescription}
+              content="I am Jacobo, a software developer born in Mexico. During my career, my portfolio includes FrontEnd development, BackEnd, continuous deployment and creation of SmartContracts."
             />
             <Text
               {...learningDescription}
-              content="I’m Tom Parkes, a New Zealand born digital designer currently looking for opportunities in Canada. Over the 8 years of my career, my portfolio includes user interface design, brand & identity design, illustration, and art & creative direction."
-            />
-            <Text
-              {...learningDescription}
-              content="While at Neverbland over the last few years, I've worked on web and product solutions for a range of startups, in a variety of industries."
+              content="Several months ago I was able to integrate a client application with a smartcontract, I am currently getting into the development of blockchain nodes with substrate."
             />
             <Box {...buttonWrapper}>
               <Text content="Start Your Project ?" {...buttonLabelStyle} />
               <ButtonWrapper>
                 <Button
-                  title="hello@redq.io"
+                  title="Submit"
                   className="portfolio_button"
                   {...buttonStyle}
                 />

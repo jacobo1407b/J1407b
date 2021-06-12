@@ -43,25 +43,11 @@ const Footer = ({
               content="So, do we work together?"
               {...titleStyle}
             />
-            <Link href="#">
-              <a>
+            <Link href="mailto:jacobohernandezmendieta99@gmail.com">
+              <a target="_blank">
                 <Heading as="h3" content="LET'S TALK!" {...linkStyle} />
               </a>
             </Link>
-          </Box>
-          <Box {...col}>
-            <Heading as="h3" content="A treat for your inbox" {...titleStyle} />
-            <Newsletter>
-              <Input
-                inputType="email"
-                placeholder="Email address"
-                iconPosition="right"
-                isMaterial={false}
-                className="email_input"
-                aria-label="email"
-              />
-              <Button {...newsletterButton} title="Subscribe" />
-            </Newsletter>
           </Box>
         </Box>
 
@@ -74,25 +60,9 @@ const Footer = ({
             />
             <Text
               as="span"
-              content="© 2018 All rights reserved. "
+              content="© 2021 All rights reserved. "
               {...copyrightStyle}
             />
-            <Link href="#">
-              <a>
-                {' '}
-                <Text as="span" content=" RedQ, Inc." {...copyrightStyle} />
-              </a>
-            </Link>
-          </Box>
-          <Box {...col} {...flexBox}>
-            <Box {...contactItem}>
-              <Text content="Need help?" {...contactTitle} />
-              <Text content="redq.io" {...contactInfo} />
-            </Box>
-            <Box {...contactItem}>
-              <Text content="Feel like talking" {...contactTitle} />
-              <Text content="+479-443-9334" {...contactInfo} />
-            </Box>
           </Box>
         </Box>
 
