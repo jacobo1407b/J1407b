@@ -26,8 +26,8 @@ const Portfolio = () => {
     <ThemeProvider theme={portfolioTheme}>
       <Fragment>
         <Head>
-          <title>Jacobo1407b</title>
-          <meta name="Description" content="Jacobo Hernandez Mendieta, web page" />
+          <title>Jacobo Hernandez Mendieta</title>
+          <meta name="Description" content="Jacobo Hernandez Mendieta, web page, portfolio" />
           <meta name="theme-color" content="#ec5555" />
           {/* Load google fonts */}
           <link
