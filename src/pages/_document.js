@@ -31,6 +31,7 @@ export default class CustomDocument extends Document {
       <Html lang="en">
         <Head>
           <link rel="shortcut icon" type="image/x-icon" href={LogoHam} />
+          <meta name="google-site-verification" content="VRQ_0sciiHTYz9z6Gn4Af4h-qszhU-a5jpVnRvyNqvA" />
         </Head>
         <body>
           <Main />
