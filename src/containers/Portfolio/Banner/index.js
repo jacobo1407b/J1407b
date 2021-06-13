@@ -1,6 +1,5 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import Icon from 'react-icons-kit';
 import Box from 'common/components/Box';
 import Text from 'common/components/Text';
 import Heading from 'common/components/Heading';
@@ -10,7 +9,6 @@ import SocialProfile from '../SocialProfile';
 import BannerWrapper from './banner.style';
 
 import { SOCIAL_PROFILES } from 'common/data/Portfolio/data';
-import { cornerDownRight } from 'react-icons-kit/feather/cornerDownRight';
 import PersonImage from 'common/assets/image/portfolio/person.png';
 
 const BannerSection = ({
@@ -21,8 +19,6 @@ const BannerSection = ({
   nameStyle,
   designationStyle,
   aboutStyle,
-  roleStyle,
-  roleWrapper,
 }) => {
   return (
     <BannerWrapper id="banner_section">

@@ -4,30 +4,19 @@ import { Icon } from 'react-icons-kit';
 import Box from 'common/components/Box';
 import Text from 'common/components/Text';
 import Heading from 'common/components/Heading';
-import Image from 'common/components/Image';
 import Button from 'common/components/Button';
 import Container from 'common/components/UI/Container';
 import { plus } from 'react-icons-kit/feather/plus';
 
 import { ButtonWrapper } from '../../Portfolio/portfolio.style';
-import ProcessItem from './process.style';
-import { PROCESS_STEPS, SERVICE_LIST } from 'common/data/Portfolio/data';
+import { SERVICE_LIST } from 'common/data/Portfolio/data';
 
 const ProcessSection = ({
   sectionWrapper,
-  secTitleWrapper,
-  secTitle,
-  secDescription,
-  processRow,
-  processCol,
-  processImageStyle,
-  processTitleStyle,
-  processDescriptionStyle,
   learningRow,
   learningContentArea,
   learningListArea,
   learningTitle,
-  learningSubTitle,
   learningDescription,
   buttonWrapper,
   buttonLabelStyle,
@@ -40,37 +29,6 @@ const ProcessSection = ({
   return (
     <Box {...sectionWrapper} as="section" id="process_section">
       <Container noGutter mobileGutter width="1200px">
-        <Box {...secTitleWrapper}>
-          <Heading
-            {...secTitle}
-            content="From Lean Design Sprints to Agile Development"
-          />
-          <Text
-            {...secDescription}
-            content="My development process is based on SCRUM ."
-          />
-        </Box>
-
-        <Box {...processRow}>
-          {PROCESS_STEPS.map((item, index) => (
-            <Box
-              {...processCol}
-              key={`process-item-${index}`}
-              className="process_item_col"
-            >
-              <ProcessItem className="process_item">
-                <Image
-                  src={item.image}
-                  alt={`process-image-${index + 1}`}
-                  {...processImageStyle}
-                />
-                <Heading as="h3" content={item.title} {...processTitleStyle} />
-                <Text content={item.description} {...processDescriptionStyle} />
-              </ProcessItem>
-            </Box>
-          ))}
-        </Box>
-
         <Box {...learningRow}>
           <Box {...learningContentArea}>
             <Heading
@@ -88,11 +46,11 @@ const ProcessSection = ({
             <Box {...buttonWrapper}>
               <Text content="Start Your Project ?" {...buttonLabelStyle} />
               <ButtonWrapper>
-                <Button
+                <a href="mailto:jacobohernandezmendieta99@gmail.com"><Button
                   title="Submit"
                   className="portfolio_button"
                   {...buttonStyle}
-                />
+                /></a>
               </ButtonWrapper>
             </Box>
           </Box>

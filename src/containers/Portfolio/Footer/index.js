@@ -5,14 +5,11 @@ import { Icon } from 'react-icons-kit';
 import Box from 'common/components/Box';
 import Text from 'common/components/Text';
 import Heading from 'common/components/Heading';
-import Button from 'common/components/Button';
-import Input from 'common/components/Input';
 import Container from 'common/components/UI/Container';
 import SocialProfile from '../SocialProfile';
 
 import {
   FooterWrapper,
-  Newsletter,
   FooterNav,
   FooterNavItem,
 } from './footer.style';
@@ -25,12 +22,8 @@ const Footer = ({
   col,
   titleStyle,
   linkStyle,
-  newsletterButton,
   copyrightStyle,
-  contactItem,
   flexBox,
-  contactTitle,
-  contactInfo,
   noMargin,
 }) => {
   return (
@@ -79,7 +72,7 @@ const Footer = ({
             <FooterNav>
               {FOOTER_MENU.map((item, index) => (
                 <FooterNavItem key={`footer-nav-item-${index}`}>
-                  <Link href={item.path || '#'}>
+                  <Link  href="mailto:jacobohernandezmendieta99@gmail.com" >
                     <a>{item.label}</a>
                   </Link>
                 </FooterNavItem>
@@ -128,7 +121,7 @@ Footer.defaultProps = {
   },
   linkStyle: {
     fontSize: ['22px', '26px', '26px', '30px'],
-    color: '#3444f1',
+    color: '#3fe0c5',
     mb: 0,
   },
   newsletterButton: {

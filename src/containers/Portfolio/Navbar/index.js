@@ -13,9 +13,7 @@ import { DrawerContext } from 'common/contexts/DrawerContext';
 import { MENU_ITEMS } from 'common/data/Portfolio/data';
 import ScrollSpyMenu from 'common/components/ScrollSpyMenu';
 
-import LogoImage from 'common/assets/image/portfolio/logo.png';
 import LogoHam from 'common/assets/image/portfolio/logo.png'
-import LogoImageAlt from 'common/assets/image/portfolio/logo-alt.png';
 
 const Navbar = ({ navbarStyle, logoStyle, button, row, menuWrapper }) => {
   const { state, dispatch } = useContext(DrawerContext);

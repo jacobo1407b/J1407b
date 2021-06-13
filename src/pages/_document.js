@@ -1,6 +1,5 @@
 import Document, { Html, Head, Main, NextScript } from 'next/document';
 import { ServerStyleSheet } from 'styled-components';
-import FavIcon from 'common/assets/image/favicon.png';
 import LogoHam from 'common/assets/image/logo.png'
 
 export default class CustomDocument extends Document {

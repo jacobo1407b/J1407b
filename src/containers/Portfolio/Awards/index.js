@@ -37,7 +37,7 @@ const AwardsSection = ({
     autoplay: 4000,
     perView: 4,
     gap: 30,
-    animationDuration: 800,
+    animationDuration: 4000,
     breakpoints: {
       990: {
         perView: 3,
@@ -89,6 +89,7 @@ const AwardsSection = ({
                       alt={`award-logo-${index}`}
                       {...awardLogoStyle}
                     />
+
                   </AwardImageWrapper>
                   <Heading content={award.awardName} {...awardNameStyle} />
                   <Text content={award.awardDetails} {...awardDetailsStyle} />

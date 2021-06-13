@@ -1,6 +1,5 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import Link from 'next/link'
 import Box from 'common/components/Box';
 import Text from 'common/components/Text';
 import Heading from 'common/components/Heading';
@@ -34,7 +33,7 @@ const ContactSection = ({
         </Box>
         <Box {...replyWrapper}>
           <ActiveStatus>
-            <Image src={Author} alt="Author Avatar" />
+            <Image src={Author} alt="Author Avatar" style={{borderRadius:"100px"}} />
           </ActiveStatus>
           <Heading
             as="h4"
@@ -43,12 +42,13 @@ const ContactSection = ({
           />
         </Box>
         <Box {...buttonWrapper}>
-          <ButtonWrapper>
-          <Link href="mailto:jacobohernandezmendieta99@gmail.com" className="portfolio_button"
-          {...buttonStyle}>
-          <a>Submit</a>
-          </Link>
-          </ButtonWrapper>
+        <ButtonWrapper>
+          <a href="mailto:jacobohernandezmendieta99@gmail.com"><Button
+            title="Submit"
+            className="portfolio_button"
+            {...buttonStyle}
+          /></a>
+        </ButtonWrapper>
         </Box>
       </Container>
     </Box>

@@ -3,33 +3,28 @@ import {socialInstagram} from 'react-icons-kit/typicons/socialInstagram'
 import { socialGithub } from 'react-icons-kit/ionicons/socialGithub';
 import {socialLinkedin} from 'react-icons-kit/typicons/socialLinkedin'
 
-import Awardee1 from '../../assets/image/portfolio/awardee-1.png';
-import Awardee2 from '../../assets/image/portfolio/awardee-2.png';
-import Awardee3 from '../../assets/image/portfolio/awardee-3.png';
-import Awardee4 from '../../assets/image/portfolio/awardee-4.png';
-import AwardImage1 from '../../assets/image/portfolio/award-1.png';
-import AwardImage2 from '../../assets/image/portfolio/award-2.png';
-import AwardImage3 from '../../assets/image/portfolio/award-3.png';
-import AwardImage4 from '../../assets/image/portfolio/award-4.png';
 
-import PortfolioImage1 from '../../assets/image/portfolio/portfolio-1.jpg';
-import PortfolioImage2 from '../../assets/image/portfolio/portfolio-2.jpg';
+import Bitcoin from '../../assets/image/portfolio/bitcoin.jpg'
+import Ingles from '../../assets/image/portfolio/ingles.jpg'
+import Inversion from '../../assets/image/portfolio/inversion.jpg'
+import Watson from '../../assets/image/portfolio/watson.jpg'
+import Dev from '../../assets/image/portfolio/dev.jpg'
+import Elect from '../../assets/image/portfolio/electron.jpg'
+import Rou from '../../assets/image/portfolio/react-router.jpg'
 
-import Step1 from '../../assets/image/portfolio/step-1.png';
-import Step2 from '../../assets/image/portfolio/step-2.png';
-import Step3 from '../../assets/image/portfolio/step-3.png';
+import Plat from '../../assets/image/portfolio/platzi.png'
+import Ude from '../../assets/image/portfolio/udemy.svg'
+
+import PortfolioBunbi from '../../assets/image/portfolio/portfolio-bunbi.png'
+import Aviacion from '../../assets/image/portfolio/aviacion.jpg'
+import Mern from '../../assets/image/portfolio/MERN.png'
+import Seani from '../../assets/image/portfolio/seani.png'
+
 
 import SkillIcon1 from '../../assets/image/portfolio/skill-1.svg';
-import SkillIcon2 from '../../assets/image/portfolio/skill-2.svg';
 import SkillIcon3 from '../../assets/image/portfolio/skill-3.svg';
 import SkillIcon4 from '../../assets/image/portfolio/skill-4.svg';
 
-import Client1 from '../../assets/image/portfolio/client-1.png';
-import Client2 from '../../assets/image/portfolio/client-2.png';
-import Client3 from '../../assets/image/portfolio/client-3.png';
-import Client4 from '../../assets/image/portfolio/client-4.png';
-import Client5 from '../../assets/image/portfolio/client-5.png';
-import Client6 from '../../assets/image/portfolio/client-6.png';
 
 import Reviewer1 from '../../assets/image/portfolio/client-avatar-1.jpg';
 import Reviewer2 from '../../assets/image/portfolio/client-avatar-2.jpg';
@@ -79,36 +74,60 @@ export const MENU_ITEMS = [
 
 export const AWARDS = [
   {
-    awardLogo: AwardImage1,
-    awardName: 'Free Software Advice',
-    awardDetails: 'Top Rated App Development Companies USA',
-    awardeeLogo: Awardee1,
-    awardeeName: 'Awardee',
-    date: 'The Jury 2018',
+    awardLogo: Bitcoin,
+    awardName: 'Bitcoin y Blockchain',
+    awardDetails: 'Concepts in Bitcoin and Blockchain',
+    awardeeLogo: Plat,
+    awardeeName: 'Platzi',
+    date: 'August 2020',
   },
   {
-    awardLogo: AwardImage2,
-    awardName: 'Free Software Advice',
-    awardDetails: 'Top Rated App Development Companies USA',
-    awardeeLogo: Awardee2,
-    awardeeName: 'Awardee',
-    date: 'The Jury 2018',
+    awardLogo: Ingles,
+    awardName: 'English Pronunciation',
+    awardDetails: 'Course Basic English Pronunciation',
+    awardeeLogo: Plat,
+    awardeeName: 'Platzi',
+    date: 'March 2021',
   },
   {
-    awardLogo: AwardImage3,
-    awardName: 'Free Software Advice',
-    awardDetails: 'Top Rated App Development Companies USA',
-    awardeeLogo: Awardee3,
-    awardeeName: 'Awardee',
-    date: 'The Jury 2018',
+    awardLogo: Inversion,
+    awardName: 'Cryptocurrencies',
+    awardDetails: 'Cryptocurrency Market and Investment',
+    awardeeLogo: Plat,
+    awardeeName: 'Platzi',
+    date: 'March 2021',
   },
   {
-    awardLogo: AwardImage4,
-    awardName: 'Free Software Advice',
-    awardDetails: 'Top Rated App Development Companies USA',
-    awardeeLogo: Awardee4,
-    awardeeName: 'Awardee',
-    date: 'The Jury 2018',
+    awardLogo: Watson,
+    awardName: 'IBM Watson',
+    awardDetails: 'Handling and Examples of IBM Watson Tools',
+    awardeeLogo: Plat,
+    awardeeName: 'Platzi',
+    date: 'August 2020',
+  },
+  {
+    awardLogo: Dev,
+    awardName: 'SmartContracts',
+    awardDetails: 'Creation, Testing and Deployment of Contracts',
+    awardeeLogo: Ude,
+    awardeeName: 'Udemy',
+    date: 'December 2019',
+  },
+  {
+    awardLogo: Elect,
+    awardName: 'React & Electron',
+    awardDetails: 'Create Desktop Applications with Electron',
+    awardeeLogo: Ude,
+    awardeeName: 'Udemy',
+    date: 'August 2020',
+  },
+  {
+    awardLogo: Rou,
+    awardName: 'React Router',
+    awardDetails: 'React Router and Integration with SSR',
+    awardeeLogo: Plat,
+    awardeeName: 'Platzi',
+    date: 'March 2021',
   },
 ];
 
@@ -170,8 +189,8 @@ export const PORTFOLIO_SHOWCASE = [
       {
         title: 'BUNBi network',
         description:
-          "An effective and immersive user experience is what catches the attention and spreads a clear message. That's why we attach great importance to the fact that ergonomics serves the design, and that this design is innovative and neat.",
-        image: PortfolioImage1,
+          "A Blockchain network for startups, companies and people in a real, interoperable and scalable open economic environment, will later be incorporated with IOT, allowing a much fairer and balanced interaction of activities.",
+        image: PortfolioBunbi,
         link: 'https://bunbi.com.mx',
         featuredIn: 'BUNBi',
         featuredLink: 'https://bunbi.com.mx',
@@ -198,8 +217,8 @@ export const PORTFOLIO_SHOWCASE = [
       {
         title: 'TEC BLOCKCHAIN FOR AVIATION',
         description:
-          "An effective and immersive user experience is what catches the attention and spreads a clear message. That's why we attach great importance to the fact that ergonomics serves the design, and that this design is innovative and neat.",
-        image: PortfolioImage1,
+          "Certificates issued on a timestamp server that works by taking a hash of a block of items to be dated and publishing the hash widely, across the Ethereum network.",
+        image: Aviacion,
         link: 'http://cerapp-env.eba-xbhgdbja.us-east-1.elasticbeanstalk.com/',
         featuredIn: 'TEC BLOCKCHAIN FOR AVIATION',
         featuredLink: 'http://cerapp-env.eba-xbhgdbja.us-east-1.elasticbeanstalk.com/',
@@ -227,8 +246,8 @@ export const PORTFOLIO_SHOWCASE = [
       {
         title: 'Seani',
         description:
-          "An effective and immersive user experience is what catches the attention and spreads a clear message. That's why we attach great importance to the fact that ergonomics serves the design, and that this design is innovative and neat.",
-        image: PortfolioImage1,
+          "In times of pandemic, institutions could not apply tests in their facilities, the best solution was a scalable platform with good performance to support a large number of applicants.",
+        image: Seani,
         link: 'https://seani.vercel.app',
         featuredIn: 'SEANI',
         featuredLink: 'https://seani.vercel.app',
@@ -255,8 +274,8 @@ export const PORTFOLIO_SHOWCASE = [
       {
         title: 'Simple fullstack',
         description:
-          "An effective and immersive user experience is what catches the attention and spreads a clear message. That's why we attach great importance to the fact that ergonomics serves the design, and that this design is innovative and neat.",
-        image: PortfolioImage1,
+          "A demo application to test JWT functions on a node JS server, validate an access token and display a UI in react, includes CRUD, token authentication, image upload with cludinary and connection to a Stripe API.",
+        image: Mern,
         link: 'https://github.com/jacobo1407b/bunbiplataform',
         featuredIn: 'MERN',
         featuredLink: 'https://github.com/jacobo1407b/bunbiplataform',
@@ -283,26 +302,6 @@ export const PORTFOLIO_SHOWCASE = [
   },
 ];
 
-export const PROCESS_STEPS = [
-  {
-    image: Step1,
-    title: '1. Research',
-    description:
-      'We work with you to understand user’s stories and validate your idea with real users using lean design sprints.',
-  },
-  {
-    image: Step2,
-    title: '2. Design',
-    description:
-      'Expanding on the insights gained, you’ll work closely with our design team to create an elegant design',
-  },
-  {
-    image: Step3,
-    title: '3. Build',
-    description:
-      'With our scrum-based agile methodology, you’ll receive iterative builds every two weeks, which gives you ',
-  },
-];
 
 export const SERVICE_LIST = [
   {
@@ -391,32 +390,6 @@ export const SKILLS = [
   },
 ];
 
-export const CLIENTS = [
-  {
-    image: Client1,
-    title: 'Microsoft',
-  },
-  {
-    image: Client2,
-    title: 'Airbnb',
-  },
-  {
-    image: Client3,
-    title: 'Adidas',
-  },
-  {
-    image: Client4,
-    title: 'IBM',
-  },
-  {
-    image: Client5,
-    title: 'Amazon',
-  },
-  {
-    image: Client6,
-    title: 'Google',
-  },
-];
 
 export const TESTIMONIAL = [
   {

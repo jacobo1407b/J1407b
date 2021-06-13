@@ -3,7 +3,7 @@ import styled from 'styled-components';
 export const FooterWrapper = styled.footer`
   position: relative;
   overflow: hidden;
-  background-color: #1b1e25;
+  background-color: #33262a;
   padding: 100px 0;
   color: #fff;
   @media (max-width: 990px) {
@@ -37,34 +37,6 @@ export const FooterWrapper = styled.footer`
   }
 `;
 
-export const Newsletter = styled.div`
-  position: relative;
-  display: flex;
-  align-items: stretch;
-  background: #fff;
-  border-radius: 6px;
-  height: 60px;
-
-  .reusecore__input {
-    flex-grow: 1;
-    * {
-      height: 100%;
-    }
-    input {
-      border: none;
-      padding-left: 22px;
-      color: #302b4e;
-      &:focus {
-        outline: none;
-      }
-    }
-  }
-  .reusecore__button {
-    font-weight: 700;
-    font-family: 'Raleway', sans-serif;
-  }
-`;
-
 export const FooterNav = styled.ul`
   margin: 0;
   padding: 0;
@@ -86,7 +58,7 @@ export const FooterNavItem = styled.li`
     font-size: 14px;
     transition: 0.15s ease-in-out;
     &:hover {
-      color: #3444f1;
+      color: #3fe0c5;
     }
   }
 `;
